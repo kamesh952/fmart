@@ -14,7 +14,7 @@ const slides = [
   },
   {
     name: "Welcome to Fresh Mart",
-    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapers.com%2Fwallpapers%2Fbakery-aesthetic-goods-76cevcp88bluqarr.html&psig=AOvVaw1i3L6Mh7sMUGxUOfwhnNZU&ust=1753850607570000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJCexOWg4Y4DFQAAAAAdAAAAABAE",
+    image: hero2,
     title: "Organic Vegetables",
     subtitle: "Healthy, clean, and naturally grown vegetables for your family.",
   },
