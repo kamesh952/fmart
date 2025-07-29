@@ -14,7 +14,7 @@ const slides = [
   },
   {
     name: "Welcome to Fresh Mart",
-    image: hero2,
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapers.com%2Fwallpapers%2Fbakery-aesthetic-goods-76cevcp88bluqarr.html&psig=AOvVaw1i3L6Mh7sMUGxUOfwhnNZU&ust=1753850607570000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJCexOWg4Y4DFQAAAAAdAAAAABAE",
     title: "Organic Vegetables",
     subtitle: "Healthy, clean, and naturally grown vegetables for your family.",
   },
@@ -45,7 +45,7 @@ const Hero = () => {
 
   return (
     <div style={{ margin: 0 }}>
-      <section className="relative h-[400px] md:h-[600px] lg:h-[700px] overflow-hidden m-0">
+      <section className="relative h-[400px] md:h-[600px] lg:h-[550px] overflow-hidden m-0">
         {slides.map((slide, i) => (
           <div
             key={i}
@@ -62,7 +62,7 @@ const Hero = () => {
                 backgroundPosition: 'center'
               }}
             ></div>
-            <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+            <div className="absolute inset-0 bg- bg-opacity-30 flex items-center justify-center">
               <div className="text-center text-white p-6">
                 <h1
                   className="text-4xl md:text-7xl lg:text-8xl font-bold tracking-tighter mb-10"
